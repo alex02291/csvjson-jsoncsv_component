@@ -1,0 +1,25 @@
+{
+  "title": "csvjson_jsoncsv Connector",
+  "description": "csvjson_jsoncsv Connector",
+  "docsUrl": "",
+  "buildType": "docker",
+  "credentials": {
+    "fields": {}
+  },
+  "triggers": {
+    "csv_json": {
+      "title": "Convertion csv-json",
+      "main": "./lib/triggers/csv_json.js"
+    },
+    "json_csv": {
+      "title": "Convertion json-csv",
+      "main": "./lib/triggers/json_csv.js"
+    }
+  },
+  "actions": {
+    "getDataAction": {
+      "title": "Convertion csv-json",
+      "main": "./lib/actions/testAction.js"
+    }
+  }
+}
